@@ -33,7 +33,7 @@ int main(int argC, char *argV[])
 
 			if (vec[iter] == 1) break;
 		}
-		cout << str << endl;
+        cout << str << "\n";
 	}
 	return 0;
 }
