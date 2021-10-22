@@ -19,11 +19,11 @@ int main(int argC, char *argV[])
 	while (file2 >> x0 >> y0)
 	{
 		if (sqrt(pow((x - x0), 2) + pow((y - y0), 2)) < radius) 
-			std::cout << 1 << std::endl;
+            std::cout << 1 << "\n";
 		else if (sqrt(pow((x - x0), 2) + pow((y - y0), 2)) == radius) 
-			std::cout << 0 << std::endl;
+            std::cout << 0 << "\n";
 		else  
-			std::cout << 2 << std::endl;
+            std::cout << 2 << "\n";
 	}
 
 	return 0;
